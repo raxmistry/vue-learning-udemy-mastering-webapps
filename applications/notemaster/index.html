@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Note Master</title>
+        <script src="https://unpkg.com/vue"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://davidtkatz.com/public_css/noteMaster.css">
+    </head>
+    <body>
+        <div id="app">
+            <h3>{{title}}</h3>
+        </div>
+        <script>
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    title: 'Notemaster'
+                }
+            });
+        </script>
+    </body>
+</html>
